@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Dagger-WorkManager</string>
+    <string name="app_name">Dagger WorkManager</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="schedule_work">Schedule Work!</string>
 </resources>

@@ -1,6 +1,7 @@
 package `in`.arunkumarsampath.dagger.workmanager.di.app
 
 import `in`.arunkumarsampath.dagger.workmanager.WorkManagerApp
+import `in`.arunkumarsampath.dagger.workmanager.data.DataModule
 import `in`.arunkumarsampath.dagger.workmanager.home.HomeBuilder
 import android.app.Application
 import dagger.BindsInstance
@@ -14,7 +15,9 @@ import javax.inject.Singleton
     modules = [
         AndroidSupportInjectionModule::class,
 
-        HomeBuilder::class
+        HomeBuilder::class,
+
+        DataModule::class
     ]
 )
 interface AppComponent : AndroidInjector<WorkManagerApp> {
