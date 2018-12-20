@@ -1,0 +1,10 @@
+ext {
+    versions = [
+            'kotlin'     : '1.3.11',
+            'rx'         : '2.2.1',
+            'rxKotlin'   : '2.2.0',
+            'rxAndroid'  : '2.1.0',
+            'workManager': '1.0.0-beta01',
+            'dagger'     : '2.19'
+    ]
+}
